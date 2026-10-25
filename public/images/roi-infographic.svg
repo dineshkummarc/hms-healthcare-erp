@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgRoi" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+    <linearGradient id="greenG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="cyanG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+    <linearGradient id="amberG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="460" fill="url(#bgRoi)" rx="20" />
+
+  <!-- Section Title -->
+  <text x="60" y="60" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">MEASURED OPERATIONAL IMPACT &amp; BUSINESS ROI</text>
+  <text x="60" y="100" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="900" letter-spacing="-0.5">
+    How GrandHealth ERP Saves Thousands of Hours &amp; Dollars
+  </text>
+  <text x="60" y="128" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14">
+    Real-world operational acceleration benchmarked across hospitals, outpatient chambers, and diagnostic networks.
+  </text>
+
+  <!-- 4 Big Impact Cards -->
+  <g transform="translate(60, 160)">
+    <!-- Card 1: Time Savings -->
+    <rect x="0" y="0" width="250" height="240" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <circle cx="45" cy="45" r="22" fill="#0E7490" opacity="0.3" />
+    <text x="35" y="52" fill="#22D3EE" font-size="20">⚡</text>
+    <text x="25" y="105" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900">82%</text>
+    <text x="25" y="130" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Triage Time Reduction</text>
+    <text x="25" y="155" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" line-height="1.4">
+      Instant token numbers, automated vitals recording, and online pre-registration cut average reception queues from 28 mins to under 5 mins.
+    </text>
+    <rect x="25" y="200" width="130" height="22" rx="11" fill="#083344" />
+    <text x="35" y="215" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">Saves 4.2 hrs / day</text>
+
+    <!-- Card 2: Cost Reduction -->
+    <rect x="275" y="0" width="250" height="240" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <circle cx="320" cy="45" r="22" fill="#065F46" opacity="0.3" />
+    <text x="310" y="52" fill="#34D399" font-size="20">💰</text>
+    <text x="300" y="105" fill="#10B981" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900">$120k+</text>
+    <text x="300" y="130" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Annual Cost Reduction</text>
+    <text x="300" y="155" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      Eliminates paper prescription pads, duplicate lab orders, billing leakage, and uncollected cashier receipts with automated reconciliations.
+    </text>
+    <rect x="300" y="200" width="140" height="22" rx="11" fill="#064E3B" />
+    <text x="310" y="215" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">Zero Billing Leakage</text>
+
+    <!-- Card 3: Error Elimination -->
+    <rect x="550" y="0" width="250" height="240" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <circle cx="595" cy="45" r="22" fill="#854D0E" opacity="0.3" />
+    <text x="585" y="52" fill="#FBBF24" font-size="20">🛡️</text>
+    <text x="575" y="105" fill="#F59E0B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900">0%</text>
+    <text x="575" y="130" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Booking Collisions</text>
+    <text x="575" y="155" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      Atomic database locking prevents double-booking of doctors, simultaneous allocation of the same hospital bed, or duplicate patient records.
+    </text>
+    <rect x="575" y="200" width="135" height="22" rx="11" fill="#451A03" />
+    <text x="585" y="215" fill="#FBBF24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">100% Concurrency Safe</text>
+
+    <!-- Card 4: Inventory & Pharmacy -->
+    <rect x="825" y="0" width="250" height="240" rx="16" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+    <circle cx="870" cy="45" r="22" fill="#6B21A8" opacity="0.3" />
+    <text x="860" y="52" fill="#C084FC" font-size="20">💊</text>
+    <text x="850" y="105" fill="#A855F7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="900">94%</text>
+    <text x="850" y="130" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700">Dispensing Accuracy</text>
+    <text x="850" y="155" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">
+      Strict batch lot validation and FEFO (First-Expired-First-Out) logic stops expired medicine dispensing and tracks clinical stock consumption.
+    </text>
+    <rect x="850" y="200" width="140" height="22" rx="11" fill="#3B0764" />
+    <text x="860" y="215" fill="#C084FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="700">Auto FEFO Reorders</text>
+  </g>
+</svg>
