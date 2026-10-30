@@ -1,3 +1,5 @@
+# hospital-management-system-healthcare-erp
+
 <p align="center">
   <img src="public/images/grandhealth-banner.svg" alt="GrandHealth ERP Banner" width="100%" />
 </p>
